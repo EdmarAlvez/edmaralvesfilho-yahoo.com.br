@@ -1,21 +1,29 @@
-package com.projeto.operadoresbasicos;
+package com.projeto.operadores;
 
 public class Operador {
 	
-	//somar(+)
-	//subtrair(-)
-	//multiplicar(*)
-	//dividir(/)
-	//Modulo (Resto da divisão)(%)
+	// == (igual)
+	// = (Atribuição)
+	// != (Diferente)
+	// > (maior)
+	// < (menor)
+	// >= (maior ou igual) 
+	// <= (menor ou igual)
+	
+	//&& (e)
+	// || (ou)
+	
 	public static void main(String[] args) {
 		
-		int primeiro = 7;
-		int segundo = 2;
-		int resultado = 0;
+		boolean resultado;
+		int numero1 = 5;
+		int numero2 = 6;
 		
-		resultado = primeiro % segundo;
+		resultado = true || true;
 		
 		System.out.println(resultado);
+		
+
 	}
 
 }
